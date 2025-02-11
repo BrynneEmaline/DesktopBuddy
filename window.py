@@ -3,7 +3,7 @@ import tkinter as tk
 class Window:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.geometry("700x300")
+        self.root.geometry("1000x500")
         self.root.overrideredirect(True)
         self.root.wm_attributes("-topmost", True)
         self.root.config(bg="white")
